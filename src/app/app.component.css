@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+.geral{
+  width: 100%;
+}
+header {
+  padding: 10px;
+  color: #fff;
+  background: linear-gradient(342deg, rgba(2,0,36,1) 0%, rgba(102,140,190,1) 49%, rgba(0,212,255,1) 100%);
+  margin-bottom: 80px
+}
+
+header h3{
+  text-align: center;
+}

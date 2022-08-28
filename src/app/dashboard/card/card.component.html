@@ -1,0 +1,18 @@
+ <div class="card">    
+   <div class="text">
+      <img mat-card-image [src]="card.pic" alt="Photo of a Shiba Inu"> 
+      <h4>{{card.name}}</h4>
+      <p>
+        {{card.description}}
+      </p> 
+   </div>  
+
+    <div class="row">
+      <div class="col-6"><button mat-button (click)="onLike()">LIKE {{card.likes}}</button></div>
+      <div class="col-6"><button mat-button (click)="onShare('https://www.linkedin.com/in/ivan-vidigal-queiroz-jr-937b9790/')">SHARE</button></div>
+      <!-- OUTRO MODO DE ABRIR O LINK EM NOVA ABA -->
+      <!-- <div class="col-6">
+        <a class="btnLink" href="https://www.linkedin.com/in/ivan-vidigal-queiroz-jr-937b9790/" target="_blank">SHARE</a>
+      </div> -->
+    </div>
+ </div>

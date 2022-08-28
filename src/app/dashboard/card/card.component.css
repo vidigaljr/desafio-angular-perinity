@@ -1,0 +1,31 @@
+
+.card{
+    margin-bottom: 20px;
+    border-color: blue;
+    min-height: 5px;
+}
+.card img{
+    width: 100%
+}
+.card button, .card a.btnLink{ 
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #0e0842;
+   
+}
+.card .text{
+    padding: 15x;
+}
+.card h4{
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}
