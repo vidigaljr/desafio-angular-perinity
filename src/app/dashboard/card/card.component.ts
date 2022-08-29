@@ -9,15 +9,29 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input() card;
+  item: number = 0;
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  onLike(card: any){
-    // TODO: incrementar o like, salvar via rest
+  onLike(e){        
+    this.item++;   
+    switch (this.item) {
+      case 5:
+        document.querySelector('.btn-like').classList.add('blue');        
+        break;
+
+      case 10:
+        document.querySelector('.btn-like').classList.add('red');
+        break;  
     
+      default:
+        break;
+    }
   }
+
 
   onShare(url: string){
     window.open(url, "_blank");

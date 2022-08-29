@@ -1,8 +1,9 @@
 
 .card{
     margin-bottom: 20px;
-    border-color: blue;
+    border-color: #c4c4e3;
     min-height: 5px;
+    padding: 20px;
 }
 .card img{
     width: 100%
@@ -19,7 +20,7 @@
     height: 40px;
     cursor: pointer;
     color: white;
-    background-color: #0e0842;
+    background-color: #b0b0d3;
    
 }
 .card .text{
@@ -28,4 +29,19 @@
 .card h4{
     font-size: 18px;
     padding: 10px 0 0 0;
+}
+p{
+    font-size: 13px;
+}
+
+.btn-like{
+    color: #fff;
+}
+
+.blue{
+    background: #003d70!important;
+}
+
+.red{
+    background: #df5757!important;
 }
